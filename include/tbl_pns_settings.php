@@ -87,7 +87,7 @@ $tdatatbl_pns[".popupPagesLayoutNames"] = $popupPagesLayoutNames;
 
 
 $tdatatbl_pns[".fieldsForRegister"] = array();
-
+	
 $tdatatbl_pns[".listAjax"] = false;
 
 	$tdatatbl_pns[".audit"] = true;

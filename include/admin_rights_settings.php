@@ -84,7 +84,7 @@ $tdataadmin_rights[".popupPagesLayoutNames"] = $popupPagesLayoutNames;
 
 
 $tdataadmin_rights[".fieldsForRegister"] = array();
-
+	
 $tdataadmin_rights[".listAjax"] = false;
 
 	$tdataadmin_rights[".audit"] = true;

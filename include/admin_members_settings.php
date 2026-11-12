@@ -108,7 +108,7 @@ $tdataadmin_members[".popupPagesLayoutNames"] = $popupPagesLayoutNames;
 
 
 $tdataadmin_members[".fieldsForRegister"] = array();
-
+	
 $tdataadmin_members[".listAjax"] = false;
 
 	$tdataadmin_members[".audit"] = true;

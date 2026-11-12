@@ -436,6 +436,9 @@ $globalSettings["popupPagesLayoutNames"] = array();
 						
 	;
 $globalSettings["popupPagesLayoutNames"]["login"] = "login_bootstrap";
+						
+	;
+$globalSettings["popupPagesLayoutNames"]["register"] = "register_bootstrap";
 
 //mail settings
 $globalSettings["useBuiltInMailer"] = false;
@@ -528,7 +531,7 @@ $cDisplayNameField = "fullname";
 $cUserNameField	= "username";
 $cPasswordField	= "password";
 $cUserGroupField = "groupid";
-$cEmailField = "email";
+$cEmailField = "fullname";
 
 if ($cDisplayNameField == ''){
 	$cDisplayNameField = $cUserNameField;
@@ -541,8 +544,8 @@ $cEmailFieldType = 200;
 
 												$cUserNameFieldType	= 200;
 												$cPasswordFieldType	= 200;
-												$cEmailFieldType = 200;
-																											
+																					$cEmailFieldType = 200;
+																		
 $gPermissionsRefreshTime = 0;
 $gPermissionsRead = false;
 
@@ -625,8 +628,6 @@ $mlang_defaultlang = getDefaultLanguage();
 $page_titles[".global"] = array();
 if(mlang_getcurrentlang()=="English")
 {
-				$page_titles[".global"]["English"] = array();
-	$page_titles[".global"]["English"]["login"] = "SISTEM KENDARAAN DINAS OPERASIONAL";
 }
 if(mlang_getcurrentlang()=="")
 {

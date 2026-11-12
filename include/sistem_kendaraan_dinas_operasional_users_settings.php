@@ -28,7 +28,7 @@ if(mlang_getcurrentlang()=="English")
 	$placeHolderssistem_kendaraan_dinas_operasional_users["English"]["ID"] = "";
 	$fieldLabelssistem_kendaraan_dinas_operasional_users["English"]["username"] = "Username";
 	$fieldToolTipssistem_kendaraan_dinas_operasional_users["English"]["username"] = "";
-	$placeHolderssistem_kendaraan_dinas_operasional_users["English"]["username"] = "";
+	$placeHolderssistem_kendaraan_dinas_operasional_users["English"]["username"] = "masukkan NIP";
 	$fieldLabelssistem_kendaraan_dinas_operasional_users["English"]["password"] = "Password";
 	$fieldToolTipssistem_kendaraan_dinas_operasional_users["English"]["password"] = "";
 	$placeHolderssistem_kendaraan_dinas_operasional_users["English"]["password"] = "";
@@ -108,6 +108,15 @@ $tdatasistem_kendaraan_dinas_operasional_users[".popupPagesLayoutNames"] = $popu
 
 
 $tdatasistem_kendaraan_dinas_operasional_users[".fieldsForRegister"] = array();
+	//Begin register settings
+			$tdatasistem_kendaraan_dinas_operasional_users[".fieldsForRegister"] = array();
+$tdatasistem_kendaraan_dinas_operasional_users[".fieldsForRegister"][] = "username";
+			$tdatasistem_kendaraan_dinas_operasional_users[".fieldsForRegister"][] = "password";
+/*
+$tdatasistem_kendaraan_dinas_operasional_users[".PasswordField"] = "password";
+$tdatasistem_kendaraan_dinas_operasional_users[".UserNameField"] = "username";
+*/
+//End register settings
 
 $tdatasistem_kendaraan_dinas_operasional_users[".listAjax"] = false;
 
@@ -394,7 +403,7 @@ $tdatasistem_kendaraan_dinas_operasional_users[".printFields"] = array();
 						$edata["validateAs"]["basicValidate"][] = "IsRequired";
 		
 	
-	//	End validation
+					//	End validation
 
 	
 			
@@ -505,7 +514,9 @@ $tdatasistem_kendaraan_dinas_operasional_users[".printFields"] = array();
 	$edata["validateAs"]["customMessages"] = array();
 	
 	
-	//	End validation
+				if(count($edata["validateAs"]) && !in_array('IsRequired', $edata["validateAs"]['basicValidate']))
+		$edata["validateAs"]['basicValidate'][] = 'IsRequired';
+		//	End validation
 
 	
 			
@@ -615,7 +626,9 @@ $tdatasistem_kendaraan_dinas_operasional_users[".printFields"] = array();
 	$edata["validateAs"]["customMessages"] = array();
 	
 	
-	//	End validation
+				if(count($edata["validateAs"]) && !in_array('IsRequired', $edata["validateAs"]['basicValidate']))
+		$edata["validateAs"]['basicValidate'][] = 'IsRequired';
+		//	End validation
 
 	
 			
@@ -726,7 +739,7 @@ $tdatasistem_kendaraan_dinas_operasional_users[".printFields"] = array();
 	$edata["validateAs"]["customMessages"] = array();
 	
 	
-	//	End validation
+					//	End validation
 
 	
 			
@@ -837,7 +850,9 @@ $tdatasistem_kendaraan_dinas_operasional_users[".printFields"] = array();
 	$edata["validateAs"]["customMessages"] = array();
 	
 	
-	//	End validation
+						if(count($edata["validateAs"]) && !in_array('IsEmail', $edata["validateAs"]['basicValidate']))
+		$edata["validateAs"]['basicValidate'][] = 'IsEmail';
+//	End validation
 
 	
 			
@@ -948,7 +963,7 @@ $tdatasistem_kendaraan_dinas_operasional_users[".printFields"] = array();
 	$edata["validateAs"]["customMessages"] = array();
 	
 	
-	//	End validation
+					//	End validation
 
 	
 			
@@ -1059,7 +1074,7 @@ $tdatasistem_kendaraan_dinas_operasional_users[".printFields"] = array();
 				$edata["validateAs"]["basicValidate"][] = getJsValidatorName("Number");
 							
 	
-	//	End validation
+					//	End validation
 
 	
 			

@@ -29,6 +29,7 @@ $_connection = $cman->byTable( $strTableName );
 
 $pSet = new ProjectSettings($strTableName, $pageType);
 $denyChecking = $pSet->allowDuplicateValues( $fieldName );
+$denyChecking = $denyChecking && ( $strTableName != "sistem kendaraan dinas operasional_users" || $fieldName != $cUserNameField && $fieldName != $cEmailField );
 
 if( $denyChecking )
 {

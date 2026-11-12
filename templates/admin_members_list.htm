@@ -331,10 +331,7 @@ Displaying
 						<th class="" style="width:70px" {$displayuserheadertdsort_attrs}>
 				<a class="rnr-orderlink" {$displayuserheadersort_attrs}>Display name</a>
 			</th>
-						<th class="" style="width:70px" {$emailuserheadertdsort_attrs}>
-				<a class="rnr-orderlink" {$emailuserheadersort_attrs}>E-mail</a>
-			</th>
-			{BEGIN usergroup_header}
+						{BEGIN usergroup_header}
 			<th class=" rnr-edge" style="width:70px" {$groupheadertdsort_attrs}>
 				<a class="rnr-orderlink" {$groupheadersort_attrs}>{$groupname}</a>
 			</th>
@@ -347,8 +344,7 @@ Displaying
 				</div>
 			</td>
 						<td class="" {$displayuserheadertdbox_attrs}></td>
-						<td class="" {$emailuserheadertdbox_attrs}></td>
-			{BEGIN usergroup_header}
+						{BEGIN usergroup_header}
 			<td class=" rnr-bc rnr-edge" {$groupheadertdbox_attrs}>
 				<span class="rnr-checkbox columnheader" {$groupheaderbox_attrs}></span>
 			</td>
@@ -363,10 +359,7 @@ Displaying
 						<td class="rightscell " {$displayusername_attrs}>
 				{$displayusername}
 			</td>
-						<td class="rightscell " {$emailuser_attrs}>
-				{$emailuser}
-			</td>
-			
+						
 			{BEGIN usergroup_boxes}
 				<td class="rightscell  rnr-bc" {$groupcellbox_attrs}>
 				{BEGIN usergroup_box}

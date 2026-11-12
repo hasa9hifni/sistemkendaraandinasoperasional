@@ -84,6 +84,16 @@
 				{$label tbl_pj_kendaraan NOMOR_POLISI_KENDARAAN}
 			</th>
 			{END NOMOR_POLISI_KENDARAAN_fieldheadercolumn}
+			{BEGIN TANGGAL_MULAI_fieldheadercolumn}
+			<th class="{$TANGGAL_MULAI_class}" {$TANGGAL_MULAI_style}  data-field="TANGGAL_MULAI">
+				{$label tbl_pj_kendaraan TANGGAL_MULAI}
+			</th>
+			{END TANGGAL_MULAI_fieldheadercolumn}
+			{BEGIN TANGGAL_SELESAI_fieldheadercolumn}
+			<th class="{$TANGGAL_SELESAI_class}" {$TANGGAL_SELESAI_style}  data-field="TANGGAL_SELESAI">
+				{$label tbl_pj_kendaraan TANGGAL_SELESAI}
+			</th>
+			{END TANGGAL_SELESAI_fieldheadercolumn}
 			{BEGIN endrecordheader_block}
 			<th class="rnr-cs">&nbsp;</th>
 			{END endrecordheader_block}
@@ -111,6 +121,16 @@
 				{$NOMOR_POLISI_KENDARAAN_value}
 			</td>
 			{END NOMOR_POLISI_KENDARAAN_fieldcolumn}
+			{BEGIN TANGGAL_MULAI_fieldcolumn}
+			<td  class="{$TANGGAL_MULAI_class}" {$TANGGAL_MULAI_style} {$recordattrs}>
+				{$TANGGAL_MULAI_value}
+			</td>
+			{END TANGGAL_MULAI_fieldcolumn}
+			{BEGIN TANGGAL_SELESAI_fieldcolumn}
+			<td  class="{$TANGGAL_SELESAI_class}" {$TANGGAL_SELESAI_style} {$recordattrs}>
+				{$TANGGAL_SELESAI_value}
+			</td>
+			{END TANGGAL_SELESAI_fieldcolumn}
 			{BEGIN endrecord_block}
 			<td class="rnr-cs" {$endrecordblock_attrs}>&nbsp;</td>
 			{END endrecord_block}

@@ -111,7 +111,7 @@ $tdatatbl_kendaraan[".popupPagesLayoutNames"] = $popupPagesLayoutNames;
 
 
 $tdatatbl_kendaraan[".fieldsForRegister"] = array();
-
+	
 $tdatatbl_kendaraan[".listAjax"] = false;
 
 	$tdatatbl_kendaraan[".audit"] = true;
@@ -966,7 +966,7 @@ $tdatatbl_kendaraan[".printFields"][] = "KONDISI_STATUS_KENDARAAN";
 	
 	
 	
-			$edata["HTML5InuptType"] = "text";
+			$edata["HTML5InuptType"] = "number";
 
 		$edata["EditParams"] = "";
 			$edata["EditParams"].= " maxlength=50";

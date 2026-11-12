@@ -126,11 +126,7 @@ class MembersPage extends ListPage_Simple
 			$row["displayusername"] = runner_htmlspecialchars($displayUserName);
 			$row["displayusername_attrs"] = "id=\"cellDisplayName".runner_htmlspecialchars($userid)."\"";
 			$this->users[$userid]["displayUserName"] = $displayUserName;
-				$emailUser = $data["email"];
-			$row["emailuser"] = runner_htmlspecialchars($emailUser);
-			$row["emailuser_attrs"] = "id=\"cellEmail".runner_htmlspecialchars($userid)."\"";
-			$this->users[$userid]["emailUser"] = $emailUser;
-			
+				
 			$this->users[$userid]["userName"] = $username;
 			$this->users[$userid]["groups"] = $groups_sate;
 			$this->users[$userid]["visible"] = true;
@@ -343,7 +339,6 @@ class MembersPage extends ListPage_Simple
 	function fillFields()
 	{
 		$this->fields[] = array("name" => "DisplayName", "visible" => 1, "caption" => "Display name");
-		$this->fields[] = array("name" => "Email", "visible" => 1, "caption" => "E-mail");
 		foreach($this->groups as $idx => $g)
 		{
 			$this->fields[] = array("name" => $g[0], "visible" => 1, "caption" => $g[1]);

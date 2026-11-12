@@ -108,7 +108,7 @@ $tdataadmin_users[".popupPagesLayoutNames"] = $popupPagesLayoutNames;
 
 
 $tdataadmin_users[".fieldsForRegister"] = array();
-
+	
 $tdataadmin_users[".listAjax"] = false;
 
 	$tdataadmin_users[".audit"] = true;
@@ -302,21 +302,8 @@ $tdataadmin_users[".hideMobileList"] = array();
 
 
 $tdataadmin_users[".viewFields"] = array();
-$tdataadmin_users[".viewFields"][] = "ID";
-$tdataadmin_users[".viewFields"][] = "username";
-$tdataadmin_users[".viewFields"][] = "password";
-$tdataadmin_users[".viewFields"][] = "email";
-$tdataadmin_users[".viewFields"][] = "fullname";
-$tdataadmin_users[".viewFields"][] = "groupid";
-$tdataadmin_users[".viewFields"][] = "active";
 
 $tdataadmin_users[".addFields"] = array();
-$tdataadmin_users[".addFields"][] = "username";
-$tdataadmin_users[".addFields"][] = "password";
-$tdataadmin_users[".addFields"][] = "email";
-$tdataadmin_users[".addFields"][] = "fullname";
-$tdataadmin_users[".addFields"][] = "groupid";
-$tdataadmin_users[".addFields"][] = "active";
 
 $tdataadmin_users[".masterListFields"] = array();
 $tdataadmin_users[".masterListFields"][] = "ID";
@@ -336,12 +323,6 @@ $tdataadmin_users[".inlineAddFields"][] = "groupid";
 $tdataadmin_users[".inlineAddFields"][] = "active";
 
 $tdataadmin_users[".editFields"] = array();
-$tdataadmin_users[".editFields"][] = "username";
-$tdataadmin_users[".editFields"][] = "password";
-$tdataadmin_users[".editFields"][] = "email";
-$tdataadmin_users[".editFields"][] = "fullname";
-$tdataadmin_users[".editFields"][] = "groupid";
-$tdataadmin_users[".editFields"][] = "active";
 
 $tdataadmin_users[".inlineEditFields"] = array();
 $tdataadmin_users[".inlineEditFields"][] = "username";
@@ -352,12 +333,6 @@ $tdataadmin_users[".inlineEditFields"][] = "groupid";
 $tdataadmin_users[".inlineEditFields"][] = "active";
 
 $tdataadmin_users[".updateSelectedFields"] = array();
-$tdataadmin_users[".updateSelectedFields"][] = "username";
-$tdataadmin_users[".updateSelectedFields"][] = "password";
-$tdataadmin_users[".updateSelectedFields"][] = "email";
-$tdataadmin_users[".updateSelectedFields"][] = "fullname";
-$tdataadmin_users[".updateSelectedFields"][] = "groupid";
-$tdataadmin_users[".updateSelectedFields"][] = "active";
 
 
 $tdataadmin_users[".exportFields"] = array();
@@ -370,13 +345,6 @@ $tdataadmin_users[".exportFields"][] = "groupid";
 $tdataadmin_users[".exportFields"][] = "active";
 
 $tdataadmin_users[".importFields"] = array();
-$tdataadmin_users[".importFields"][] = "ID";
-$tdataadmin_users[".importFields"][] = "username";
-$tdataadmin_users[".importFields"][] = "password";
-$tdataadmin_users[".importFields"][] = "email";
-$tdataadmin_users[".importFields"][] = "fullname";
-$tdataadmin_users[".importFields"][] = "groupid";
-$tdataadmin_users[".importFields"][] = "active";
 
 $tdataadmin_users[".printFields"] = array();
 $tdataadmin_users[".printFields"][] = "ID";
@@ -410,8 +378,7 @@ $tdataadmin_users[".printFields"][] = "active";
 	
 	
 
-		$fdata["bViewPage"] = true;
-
+	
 		$fdata["bAdvancedSearch"] = true;
 
 		$fdata["bPrinterPage"] = true;
@@ -529,19 +496,15 @@ $tdataadmin_users[".printFields"][] = "active";
 			
 		$fdata["bListPage"] = true;
 
-		$fdata["bAddPage"] = true;
-
+	
 		$fdata["bInlineAdd"] = true;
 
-		$fdata["bEditPage"] = true;
-
+	
 		$fdata["bInlineEdit"] = true;
 
-		$fdata["bUpdateSelected"] = true;
+	
 
-
-		$fdata["bViewPage"] = true;
-
+	
 		$fdata["bAdvancedSearch"] = true;
 
 		$fdata["bPrinterPage"] = true;
@@ -780,19 +743,15 @@ $tdataadmin_users[".printFields"][] = "active";
 			
 		$fdata["bListPage"] = true;
 
-		$fdata["bAddPage"] = true;
-
+	
 		$fdata["bInlineAdd"] = true;
 
-		$fdata["bEditPage"] = true;
-
+	
 		$fdata["bInlineEdit"] = true;
 
-		$fdata["bUpdateSelected"] = true;
+	
 
-
-		$fdata["bViewPage"] = true;
-
+	
 		$fdata["bAdvancedSearch"] = true;
 
 		$fdata["bPrinterPage"] = true;
@@ -907,19 +866,15 @@ $tdataadmin_users[".printFields"][] = "active";
 			
 		$fdata["bListPage"] = true;
 
-		$fdata["bAddPage"] = true;
-
+	
 		$fdata["bInlineAdd"] = true;
 
-		$fdata["bEditPage"] = true;
-
+	
 		$fdata["bInlineEdit"] = true;
 
-		$fdata["bUpdateSelected"] = true;
+	
 
-
-		$fdata["bViewPage"] = true;
-
+	
 		$fdata["bAdvancedSearch"] = true;
 
 		$fdata["bPrinterPage"] = true;
@@ -1035,19 +990,15 @@ $tdataadmin_users[".printFields"][] = "active";
 			
 		$fdata["bListPage"] = true;
 
-		$fdata["bAddPage"] = true;
-
+	
 		$fdata["bInlineAdd"] = true;
 
-		$fdata["bEditPage"] = true;
-
+	
 		$fdata["bInlineEdit"] = true;
 
-		$fdata["bUpdateSelected"] = true;
+	
 
-
-		$fdata["bViewPage"] = true;
-
+	
 		$fdata["bAdvancedSearch"] = true;
 
 		$fdata["bPrinterPage"] = true;
@@ -1163,19 +1114,15 @@ $tdataadmin_users[".printFields"][] = "active";
 			
 		$fdata["bListPage"] = true;
 
-		$fdata["bAddPage"] = true;
-
+	
 		$fdata["bInlineAdd"] = true;
 
-		$fdata["bEditPage"] = true;
-
+	
 		$fdata["bInlineEdit"] = true;
 
-		$fdata["bUpdateSelected"] = true;
+	
 
-
-		$fdata["bViewPage"] = true;
-
+	
 		$fdata["bAdvancedSearch"] = true;
 
 		$fdata["bPrinterPage"] = true;
@@ -1291,19 +1238,15 @@ $tdataadmin_users[".printFields"][] = "active";
 			
 		$fdata["bListPage"] = true;
 
-		$fdata["bAddPage"] = true;
-
+	
 		$fdata["bInlineAdd"] = true;
 
-		$fdata["bEditPage"] = true;
-
+	
 		$fdata["bInlineEdit"] = true;
 
-		$fdata["bUpdateSelected"] = true;
+	
 
-
-		$fdata["bViewPage"] = true;
-
+	
 		$fdata["bAdvancedSearch"] = true;
 
 		$fdata["bPrinterPage"] = true;

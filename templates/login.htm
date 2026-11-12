@@ -7,55 +7,54 @@
 
 		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
 		<link REL="stylesheet" href="styles/default.css" type="text/css">
-		{BEGIN rtlCSS}
-		<link REL="stylesheet" href="styles/defaultRTL.css" type="text/css">
+		{BEGIN rtlCSS}<link REL="stylesheet" href="styles/defaultRTL.css" type="text/css">
 		{END rtlCSS}
-		{BEGIN styleCSSFiles}
-		<link REL="stylesheet" href="{$stylepath}" type="text/css">
+		{BEGIN styleCSSFiles}<link REL="stylesheet" href="{$stylepath}" type="text/css">
 		{END styleCSSFiles}
 	</head>
 
 	<body class="{$stylename} function-login" {$bodyattrs}>
-	{BEGIN body}
-		{$header}
+	{BEGIN body}{$header}
 		<style>
 			{$containerCss}
 		</style>
 		<DIV class="bs-top">
         
 
-{BEGIN container_page}
-<div {$page_chiddenattr} data-pageid="{$pageid}" data-container="page" class="container    "> 
+{BEGIN container_page}<div {$page_chiddenattr} data-pageid="{$pageid}" data-container="page" class="container    "> 
 
 
 
 
-{BEGIN container_page_1}
-<div {$page_1_chiddenattr} data-pageid="{$pageid}" data-container="page_1" class=" bs-standalone-page  col-md-6 col-md-offset-3"> 
+{BEGIN container_page_1}<div {$page_1_chiddenattr} data-pageid="{$pageid}" data-container="page_1" class=" bs-standalone-page  col-md-6 col-md-offset-3"> 
 
 
 
 
-{BEGIN container_panel}
-<div {$panel_chiddenattr} data-pageid="{$pageid}" data-container="panel" class=" bs-pagepanel panel panel-primary   "> 
+{BEGIN container_panel}<div {$panel_chiddenattr} data-pageid="{$pageid}" data-container="panel" class=" bs-pagepanel panel panel-primary   "> 
 
 
 
 
-{BEGIN container_header}
-<div {$header_chiddenattr} data-pageid="{$pageid}" data-container="header" class=" panel-heading   "> 
+{BEGIN container_header}<div {$header_chiddenattr} data-pageid="{$pageid}" data-container="header" class=" panel-heading   "> 
 
-{BEGIN loginheader}
-<h3 class="panel-title" {$loginheader_hiddenattr} data-pageid="{$pageid}" data-brick="loginheader" >
-
-	{$pagetitlelabel  login}
-</h3>
+{BEGIN loginheader}<H3 align="center" class="panel-title" data-brick="loginheader" data-pageid="{$pageid}" {$loginheader_hiddenattr}>Sistem Kendaraan Dinas 
+Operasional</h3>
 
 {END loginheader}
 
 
 
-</div>
+{BEGIN loginheader}<P align="center" class="panel-title" data-brick="loginheader" data-pageid="{$pageid}" {$loginheader_hiddenattr}><BR></P>
+{END loginheader}{BEGIN loginheader}<H3 align="center" class="panel-title" data-brick="loginheader" data-pageid="{$pageid}" {$loginheader_hiddenattr}>
+{$pagetitlelabel  login}
+</h3>
+
+{END loginheader}{BEGIN loginheader}<h3 class="panel-title" {$loginheader_hiddenattr} data-pageid="{$pageid}" data-brick="loginheader" >
+
+	</h3>
+
+{END loginheader}</div>
 {END container_header}
 
 
@@ -65,17 +64,14 @@
 
 
 
-{BEGIN container_body}
-<div {$body_chiddenattr} data-pageid="{$pageid}" data-container="body" class=" panel-body   "> 
+{BEGIN container_body}<div {$body_chiddenattr} data-pageid="{$pageid}" data-container="body" class=" panel-body   "> 
 
 
 
 
-{BEGIN container_header_1}
-<div {$header_1_chiddenattr} data-pageid="{$pageid}" data-container="header_1" class="   col-md-12 "> 
+{BEGIN container_header_1}<div {$header_1_chiddenattr} data-pageid="{$pageid}" data-container="header_1" class="   col-md-12 "> 
 
-{BEGIN message_block}
-<div {$message_hiddenattr} data-pageid="{$pageid}" data-brick="message" class="alert {$message_class}" role="alert">{$message}</div>
+{BEGIN message_block}<div {$message_hiddenattr} data-pageid="{$pageid}" data-brick="message" class="alert {$message_class}" role="alert">{$message}</div>
 {END message_block}
 
 
@@ -90,8 +86,7 @@
 
 
 
-{BEGIN container_fields}
-<div {$fields_chiddenattr} data-pageid="{$pageid}" data-container="fields" class="   col-md-12 "> 
+{BEGIN container_fields}<div {$fields_chiddenattr} data-pageid="{$pageid}" data-container="fields" class="   col-md-12 "> 
 
 
 <div {$loginfields_hiddenattr} data-pageid="{$pageid}" data-brick="loginfields" class="form-horizontal" role="form">
@@ -138,17 +133,13 @@
 
 
 
-{BEGIN container_header_2}
-<div {$header_2_chiddenattr} data-pageid="{$pageid}" data-container="header_2" class="   col-md-8 col-md-offset-4"> 
+{BEGIN container_header_2}<div {$header_2_chiddenattr} data-pageid="{$pageid}" data-container="header_2" class="   col-md-8 col-md-offset-4"> 
 
-{BEGIN loginbuttons}
-<button class="btn btn-primary" {$loginlink_attrs}>Sign in</button>
-{BEGIN continue_button}
-<button class="btn btn-primary" {$continuebutton_attrs}>Continue</button>
+{BEGIN loginbuttons}<button class="btn btn-primary" {$loginlink_attrs}>Sign in</button>
+{BEGIN continue_button}<button class="btn btn-primary" {$continuebutton_attrs}>Continue</button>
 {END continue_button}
 
-{BEGIN guestlink_block}
-<div class="btn btn-link"><a {$guestlink_attrs} >Login as Guest</a></div>
+{BEGIN guestlink_block}<div class="btn btn-link"><a {$guestlink_attrs} >Login as Guest</a></div>
 {END guestlink_block}
 
 
@@ -182,11 +173,11 @@
 
 
 
-{BEGIN container_register}
-<div {$register_chiddenattr} data-pageid="{$pageid}" data-container="register" class="  text-center col-md-12 "> 
+{BEGIN container_register}<div {$register_chiddenattr} data-pageid="{$pageid}" data-container="register" class="  text-center col-md-12 "> 
 
 
 <span {$bsloginregister_hiddenattr} data-pageid="{$pageid}" data-brick="bsloginregister">
+	<a href="register.php" class="btn btn-link btn-xs" {$registerlink_attrs}>Sign Up</a>
 </span>
 
 

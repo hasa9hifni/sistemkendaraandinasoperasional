@@ -72,7 +72,7 @@ $tdatatbl_perangkat_daerah[".popupPagesLayoutNames"] = $popupPagesLayoutNames;
 
 
 $tdatatbl_perangkat_daerah[".fieldsForRegister"] = array();
-
+	
 $tdatatbl_perangkat_daerah[".listAjax"] = false;
 
 	$tdatatbl_perangkat_daerah[".audit"] = true;
