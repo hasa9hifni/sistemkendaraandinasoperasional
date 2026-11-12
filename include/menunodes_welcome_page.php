@@ -50,7 +50,7 @@ function getMenuNodes_welcome_page($menuNodesObject)
 	
 	$menuNode["title"] = "KENDARAAN";
 
-	$menuNode["comments"] = "Tbl Kendaraan description";
+	$menuNode["comments"] = "FORM INPUT KENDARAAN";
 
 
 	$menuNodesObject->menuNodes["welcome_page"][] = $menuNode;
@@ -75,7 +75,7 @@ function getMenuNodes_welcome_page($menuNodesObject)
 	
 	$menuNode["title"] = "PEGAWAI";
 
-	$menuNode["comments"] = "Tbl Pns description";
+	$menuNode["comments"] = "FORM INPUT DATA PEGAWAI";
 
 
 	$menuNodesObject->menuNodes["welcome_page"][] = $menuNode;
@@ -100,7 +100,7 @@ function getMenuNodes_welcome_page($menuNodesObject)
 	
 	$menuNode["title"] = "INSTANSI";
 
-	$menuNode["comments"] = "Tbl Perangkat Daerah description";
+	$menuNode["comments"] = "FORM INPUT DATA INSTANSI";
 
 
 	$menuNodesObject->menuNodes["welcome_page"][] = $menuNode;
@@ -125,6 +125,7 @@ function getMenuNodes_welcome_page($menuNodesObject)
 	
 	$menuNode["title"] = "PENANGGUNG JAWAB KENDARAAN";
 
+	$menuNode["comments"] = "FORM UNTUK MENDATA PEGAWAI YANG MENGGUNAKAN KENDARAAN DINAS";
 
 
 	$menuNodesObject->menuNodes["welcome_page"][] = $menuNode;
