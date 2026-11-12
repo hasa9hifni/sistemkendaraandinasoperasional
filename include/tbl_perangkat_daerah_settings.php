@@ -85,7 +85,7 @@ $tdatatbl_perangkat_daerah[".closePopupAfterEdit"] = 1;
 $tdatatbl_perangkat_daerah[".afterEditActionDetTable"] = "";
 
 $tdatatbl_perangkat_daerah[".add"] = true;
-$tdatatbl_perangkat_daerah[".afterAddAction"] = 1;
+$tdatatbl_perangkat_daerah[".afterAddAction"] = 0;
 $tdatatbl_perangkat_daerah[".closePopupAfterAdd"] = 1;
 $tdatatbl_perangkat_daerah[".afterAddActionDetTable"] = "";
 

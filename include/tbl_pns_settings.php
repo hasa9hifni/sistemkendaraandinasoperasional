@@ -100,7 +100,7 @@ $tdatatbl_pns[".closePopupAfterEdit"] = 1;
 $tdatatbl_pns[".afterEditActionDetTable"] = "";
 
 $tdatatbl_pns[".add"] = true;
-$tdatatbl_pns[".afterAddAction"] = 1;
+$tdatatbl_pns[".afterAddAction"] = 0;
 $tdatatbl_pns[".closePopupAfterAdd"] = 1;
 $tdatatbl_pns[".afterAddActionDetTable"] = "";
 

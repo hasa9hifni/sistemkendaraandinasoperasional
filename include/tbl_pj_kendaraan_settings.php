@@ -97,7 +97,7 @@ $tdatatbl_pj_kendaraan[".closePopupAfterEdit"] = 1;
 $tdatatbl_pj_kendaraan[".afterEditActionDetTable"] = "";
 
 $tdatatbl_pj_kendaraan[".add"] = true;
-$tdatatbl_pj_kendaraan[".afterAddAction"] = 1;
+$tdatatbl_pj_kendaraan[".afterAddAction"] = 0;
 $tdatatbl_pj_kendaraan[".closePopupAfterAdd"] = 1;
 $tdatatbl_pj_kendaraan[".afterAddActionDetTable"] = "";
 

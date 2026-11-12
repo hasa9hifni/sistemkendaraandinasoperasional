@@ -625,6 +625,8 @@ $mlang_defaultlang = getDefaultLanguage();
 $page_titles[".global"] = array();
 if(mlang_getcurrentlang()=="English")
 {
+				$page_titles[".global"]["English"] = array();
+	$page_titles[".global"]["English"]["login"] = "SISTEM KENDARAAN DINAS OPERASIONAL";
 }
 if(mlang_getcurrentlang()=="")
 {

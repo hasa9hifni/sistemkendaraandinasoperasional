@@ -124,9 +124,9 @@ $tdatatbl_kendaraan[".closePopupAfterEdit"] = 1;
 $tdatatbl_kendaraan[".afterEditActionDetTable"] = "";
 
 $tdatatbl_kendaraan[".add"] = true;
-$tdatatbl_kendaraan[".afterAddAction"] = 1;
+$tdatatbl_kendaraan[".afterAddAction"] = 0;
 $tdatatbl_kendaraan[".closePopupAfterAdd"] = 1;
-$tdatatbl_kendaraan[".afterAddActionDetTable"] = "";
+$tdatatbl_kendaraan[".afterAddActionDetTable"] = "Detail tables not found!";
 
 $tdatatbl_kendaraan[".list"] = true;
 
