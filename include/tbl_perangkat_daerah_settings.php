@@ -29,6 +29,8 @@ if(mlang_getcurrentlang()=="English")
 	$fieldLabelstbl_perangkat_daerah["English"]["NAMA_INSTANSI"] = "NAMA INSTANSI";
 	$fieldToolTipstbl_perangkat_daerah["English"]["NAMA_INSTANSI"] = "";
 	$placeHolderstbl_perangkat_daerah["English"]["NAMA_INSTANSI"] = "";
+	$pageTitlestbl_perangkat_daerah["English"]["add"] = "NAMA INSTANSI";
+	$pageTitlestbl_perangkat_daerah["English"]["edit"] = "UPDATE INSTANSI";
 	if (count($fieldToolTipstbl_perangkat_daerah["English"]))
 		$tdatatbl_perangkat_daerah[".isUseToolTips"] = true;
 }

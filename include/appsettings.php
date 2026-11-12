@@ -638,6 +638,13 @@ $globalSettings["showDetailedError"] = true;
 // SearchClause::getSearchObject
 $_cachedSeachClauses = array();
 
+// here goes EVENT_INIT_APP event
+date_default_timezone_set('Asia/Jakarta');
+
+
+// Place event code here.
+// Use "Add Action" button to add code snippets.
+;
 
 // default connection link #9875
 $conn = $cman->getDefault()->conn;

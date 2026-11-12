@@ -38,6 +38,8 @@ if(mlang_getcurrentlang()=="English")
 	$fieldLabelstbl_pj_kendaraan["English"]["TANGGAL_SELESAI"] = "TANGGAL SELESAI";
 	$fieldToolTipstbl_pj_kendaraan["English"]["TANGGAL_SELESAI"] = "";
 	$placeHolderstbl_pj_kendaraan["English"]["TANGGAL_SELESAI"] = "";
+	$pageTitlestbl_pj_kendaraan["English"]["add"] = "TAMBAH PENANGGUNG JAWAB KENDARAAN";
+	$pageTitlestbl_pj_kendaraan["English"]["edit"] = "UBAH DATA PENANGGUNG JAWAB KENDARAAN";
 	if (count($fieldToolTipstbl_pj_kendaraan["English"]))
 		$tdatatbl_pj_kendaraan[".isUseToolTips"] = true;
 }
@@ -99,7 +101,7 @@ $tdatatbl_pj_kendaraan[".fieldsForRegister"] = array();
 	
 $tdatatbl_pj_kendaraan[".listAjax"] = false;
 
-	$tdatatbl_pj_kendaraan[".audit"] = false;
+	$tdatatbl_pj_kendaraan[".audit"] = true;
 
 	$tdatatbl_pj_kendaraan[".locking"] = false;
 

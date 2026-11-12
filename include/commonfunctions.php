@@ -1217,6 +1217,8 @@ function SetAuthSessionData($pUsername, &$data, $fromFacebook, $password, &$page
 	$_SESSION["GroupID"] = $data["groupid"];
 
 
+		$_SESSION["OwnerID"] = $data["active"];
+	$_SESSION["_sistem kendaraan dinas operasional_users_OwnerID"] = $data["active"];
 
 	$_SESSION["UserData"] = $data;
 	

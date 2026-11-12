@@ -41,6 +41,7 @@ if(mlang_getcurrentlang()=="English")
 	$fieldLabelstbl_pns["English"]["instansi"] = "Instansi";
 	$fieldToolTipstbl_pns["English"]["instansi"] = "";
 	$placeHolderstbl_pns["English"]["instansi"] = "";
+	$pageTitlestbl_pns["English"]["add"] = "TAMBAH DATA KARYAWAN";
 	if (count($fieldToolTipstbl_pns["English"]))
 		$tdatatbl_pns[".isUseToolTips"] = true;
 }

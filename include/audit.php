@@ -333,7 +333,7 @@ class AuditTrailTable
 		}
 		if($table=="tbl_pj_kendaraan")
 		{
-			return false;
+			return true;
 		}
 	}
 	
@@ -664,7 +664,7 @@ class AuditTrailFile
 		}
 		if($table=="tbl_pj_kendaraan")
 		{
-			return false;
+			return true;
 		}
 	}
 }

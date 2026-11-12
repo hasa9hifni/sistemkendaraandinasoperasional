@@ -179,7 +179,6 @@ $tdataadmin_users[".requiredSearchFields"] = array();
 
 $tdataadmin_users[".allSearchFields"][] = "ID";
 	$tdataadmin_users[".allSearchFields"][] = "username";
-	$tdataadmin_users[".allSearchFields"][] = "password";
 	$tdataadmin_users[".allSearchFields"][] = "email";
 	$tdataadmin_users[".allSearchFields"][] = "fullname";
 	$tdataadmin_users[".allSearchFields"][] = "groupid";
@@ -199,7 +198,6 @@ $tdataadmin_users[".googleLikeFields"][] = "active";
 $tdataadmin_users[".advSearchFields"] = array();
 $tdataadmin_users[".advSearchFields"][] = "ID";
 $tdataadmin_users[".advSearchFields"][] = "username";
-$tdataadmin_users[".advSearchFields"][] = "password";
 $tdataadmin_users[".advSearchFields"][] = "email";
 $tdataadmin_users[".advSearchFields"][] = "fullname";
 $tdataadmin_users[".advSearchFields"][] = "groupid";
@@ -292,7 +290,6 @@ $tdataadmin_users[".Keys"] = $tableKeysadmin_users;
 $tdataadmin_users[".listFields"] = array();
 $tdataadmin_users[".listFields"][] = "ID";
 $tdataadmin_users[".listFields"][] = "username";
-$tdataadmin_users[".listFields"][] = "password";
 $tdataadmin_users[".listFields"][] = "email";
 $tdataadmin_users[".listFields"][] = "fullname";
 $tdataadmin_users[".listFields"][] = "groupid";
@@ -316,7 +313,6 @@ $tdataadmin_users[".masterListFields"][] = "active";
 
 $tdataadmin_users[".inlineAddFields"] = array();
 $tdataadmin_users[".inlineAddFields"][] = "username";
-$tdataadmin_users[".inlineAddFields"][] = "password";
 $tdataadmin_users[".inlineAddFields"][] = "email";
 $tdataadmin_users[".inlineAddFields"][] = "fullname";
 $tdataadmin_users[".inlineAddFields"][] = "groupid";
@@ -326,7 +322,6 @@ $tdataadmin_users[".editFields"] = array();
 
 $tdataadmin_users[".inlineEditFields"] = array();
 $tdataadmin_users[".inlineEditFields"][] = "username";
-$tdataadmin_users[".inlineEditFields"][] = "password";
 $tdataadmin_users[".inlineEditFields"][] = "email";
 $tdataadmin_users[".inlineEditFields"][] = "fullname";
 $tdataadmin_users[".inlineEditFields"][] = "groupid";
@@ -338,7 +333,6 @@ $tdataadmin_users[".updateSelectedFields"] = array();
 $tdataadmin_users[".exportFields"] = array();
 $tdataadmin_users[".exportFields"][] = "ID";
 $tdataadmin_users[".exportFields"][] = "username";
-$tdataadmin_users[".exportFields"][] = "password";
 $tdataadmin_users[".exportFields"][] = "email";
 $tdataadmin_users[".exportFields"][] = "fullname";
 $tdataadmin_users[".exportFields"][] = "groupid";
@@ -349,7 +343,6 @@ $tdataadmin_users[".importFields"] = array();
 $tdataadmin_users[".printFields"] = array();
 $tdataadmin_users[".printFields"][] = "ID";
 $tdataadmin_users[".printFields"][] = "username";
-$tdataadmin_users[".printFields"][] = "password";
 $tdataadmin_users[".printFields"][] = "email";
 $tdataadmin_users[".printFields"][] = "fullname";
 $tdataadmin_users[".printFields"][] = "groupid";
@@ -741,23 +734,17 @@ $tdataadmin_users[".printFields"][] = "active";
 	
 	
 			
-		$fdata["bListPage"] = true;
-
 	
-		$fdata["bInlineAdd"] = true;
-
 	
-		$fdata["bInlineEdit"] = true;
-
+	
+	
+	
 	
 
 	
-		$fdata["bAdvancedSearch"] = true;
-
-		$fdata["bPrinterPage"] = true;
-
-		$fdata["bExportPage"] = true;
-
+	
+	
+	
 		$fdata["strField"] = "password";
 
 		$fdata["isSQLExpression"] = true;
@@ -765,8 +752,7 @@ $tdataadmin_users[".printFields"][] = "active";
 
 	
 	
-				$fdata["FieldPermissions"] = true;
-
+			
 				$fdata["UploadFolder"] = "files";
 
 //  Begin View Formats
@@ -839,12 +825,6 @@ $tdataadmin_users[".printFields"][] = "active";
 
 
 
-// the field's search options settings
-		$fdata["defaultSearchOption"] = "Contains";
-
-			// the default search options list
-				$fdata["searchOptionsList"] = array("Contains", "Equals", "Starts with", "More than", "Less than", "Between", "Empty", NOT_EMPTY);
-// the end of search options settings
 
 
 

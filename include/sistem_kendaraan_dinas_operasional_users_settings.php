@@ -112,6 +112,7 @@ $tdatasistem_kendaraan_dinas_operasional_users[".fieldsForRegister"] = array();
 			$tdatasistem_kendaraan_dinas_operasional_users[".fieldsForRegister"] = array();
 $tdatasistem_kendaraan_dinas_operasional_users[".fieldsForRegister"][] = "username";
 			$tdatasistem_kendaraan_dinas_operasional_users[".fieldsForRegister"][] = "password";
+			$tdatasistem_kendaraan_dinas_operasional_users[".fieldsForRegister"][] = "fullname";
 /*
 $tdatasistem_kendaraan_dinas_operasional_users[".PasswordField"] = "password";
 $tdatasistem_kendaraan_dinas_operasional_users[".UserNameField"] = "username";

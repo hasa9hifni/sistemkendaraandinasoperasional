@@ -54,6 +54,9 @@ else
 	if( $field == "password" )
 		$checkResult = false;
 
+	if( $field == "fullname" )
+		$checkResult = false;
+
 	if($checkResult)
 	{
 		if( !isLogged() )  

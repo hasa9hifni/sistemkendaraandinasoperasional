@@ -56,6 +56,9 @@ if(mlang_getcurrentlang()=="English")
 	$fieldLabelstbl_kendaraan["English"]["diedit_oleh"] = "Diedit Oleh";
 	$fieldToolTipstbl_kendaraan["English"]["diedit_oleh"] = "";
 	$placeHolderstbl_kendaraan["English"]["diedit_oleh"] = "";
+	$pageTitlestbl_kendaraan["English"]["add"] = "TAMBAH DATA KENDARAAN";
+	$pageTitlestbl_kendaraan["English"]["edit"] = "UPDATE DATA KENDARAAN";
+	$pageTitlestbl_kendaraan["English"]["view"] = "DATA KENDARAAN";
 	if (count($fieldToolTipstbl_kendaraan["English"]))
 		$tdatatbl_kendaraan[".isUseToolTips"] = true;
 }

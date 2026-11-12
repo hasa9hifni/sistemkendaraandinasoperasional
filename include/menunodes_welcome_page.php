@@ -31,7 +31,7 @@ function getMenuNodes_welcome_page($menuNodesObject)
 	$menuNodesObject->menuNodes["welcome_page"][] = $menuNode;
 	$menuNode = array();
 	$menuNode["id"] = "2";
-	$menuNode["name"] = "";
+	$menuNode["name"] = "KENDARAAN";
 	$menuNode["href"] = "mypage.htm";
 	$menuNode["type"] = "Leaf";
 	$menuNode["table"] = "tbl_kendaraan";
@@ -48,7 +48,7 @@ function getMenuNodes_welcome_page($menuNodesObject)
 
 			$menuNode["color"] = "#"."4169E1";
 	
-	$menuNode["title"] = "Tbl Kendaraan";
+	$menuNode["title"] = "KENDARAAN";
 
 	$menuNode["comments"] = "Tbl Kendaraan description";
 
@@ -56,7 +56,7 @@ function getMenuNodes_welcome_page($menuNodesObject)
 	$menuNodesObject->menuNodes["welcome_page"][] = $menuNode;
 	$menuNode = array();
 	$menuNode["id"] = "3";
-	$menuNode["name"] = "";
+	$menuNode["name"] = "PEGAWAI";
 	$menuNode["href"] = "mypage.htm";
 	$menuNode["type"] = "Leaf";
 	$menuNode["table"] = "tbl_pns";
@@ -73,7 +73,7 @@ function getMenuNodes_welcome_page($menuNodesObject)
 
 			$menuNode["color"] = "#"."DAA520";
 	
-	$menuNode["title"] = "Tbl Pns";
+	$menuNode["title"] = "PEGAWAI";
 
 	$menuNode["comments"] = "Tbl Pns description";
 
@@ -81,7 +81,7 @@ function getMenuNodes_welcome_page($menuNodesObject)
 	$menuNodesObject->menuNodes["welcome_page"][] = $menuNode;
 	$menuNode = array();
 	$menuNode["id"] = "4";
-	$menuNode["name"] = "";
+	$menuNode["name"] = "INSTANSI";
 	$menuNode["href"] = "mypage.htm";
 	$menuNode["type"] = "Leaf";
 	$menuNode["table"] = "tbl_perangkat_daerah";
@@ -98,7 +98,7 @@ function getMenuNodes_welcome_page($menuNodesObject)
 
 			$menuNode["color"] = "#"."EDCA00";
 	
-	$menuNode["title"] = "Tbl Perangkat Daerah";
+	$menuNode["title"] = "INSTANSI";
 
 	$menuNode["comments"] = "Tbl Perangkat Daerah description";
 
@@ -106,7 +106,7 @@ function getMenuNodes_welcome_page($menuNodesObject)
 	$menuNodesObject->menuNodes["welcome_page"][] = $menuNode;
 	$menuNode = array();
 	$menuNode["id"] = "5";
-	$menuNode["name"] = "";
+	$menuNode["name"] = "PENANGGUNG JAWAB KENDARAAN";
 	$menuNode["href"] = "mypage.htm";
 	$menuNode["type"] = "Leaf";
 	$menuNode["table"] = "tbl_pj_kendaraan";
@@ -123,7 +123,7 @@ function getMenuNodes_welcome_page($menuNodesObject)
 
 			$menuNode["color"] = "";
 	
-	$menuNode["title"] = "Tbl Pj Kendaraan";
+	$menuNode["title"] = "PENANGGUNG JAWAB KENDARAAN";
 
 
 

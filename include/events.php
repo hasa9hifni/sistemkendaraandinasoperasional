@@ -23,6 +23,7 @@ class class_GlobalEvents extends eventsBase
 	{
 	// fill list of events
 
+
 //	onscreen events
 
 
@@ -30,6 +31,29 @@ class class_GlobalEvents extends eventsBase
 		}
 
 //	handlers
+
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
 
 //	onscreen events
 

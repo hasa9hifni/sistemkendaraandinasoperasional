@@ -79,11 +79,6 @@
 				{$label admin_users username}
 			</th>
 			{END username_fieldheadercolumn}
-			{BEGIN password_fieldheadercolumn}
-			<th class="{$password_class}" {$password_style}  data-field="password">
-				{$label admin_users password}
-			</th>
-			{END password_fieldheadercolumn}
 			{BEGIN email_fieldheadercolumn}
 			<th class="{$email_class}" {$email_style}  data-field="email">
 				{$label admin_users email}
@@ -126,11 +121,6 @@
 				{$username_value}
 			</td>
 			{END username_fieldcolumn}
-			{BEGIN password_fieldcolumn}
-			<td  class="{$password_class}" {$password_style} {$recordattrs}>
-				{$password_value}
-			</td>
-			{END password_fieldcolumn}
 			{BEGIN email_fieldcolumn}
 			<td  class="{$email_class}" {$email_style} {$recordattrs}>
 				{$email_value}

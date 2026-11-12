@@ -128,6 +128,9 @@
 		{END exitadminarea_link}
 
 
+	{BEGIN changepwd_link}
+				<li><a href="#" {$changepwdlink_attrs}>Change password</a></li>
+	{END changepwd_link}
 			</ul>
 		</span>
 	{END loggedas_message}
@@ -541,19 +544,6 @@
 									
 									
 									
-									{BEGIN password_fieldheadercolumn}
-									<th class="rnr-gridfieldlabel {$password_class}" data-field=password>
-									{BEGIN password_fieldheader}
-																				<span {$password_orderlinkattrs}>
-											{$label admin_users password}
-										</span>
-									{END password_fieldheader}
-									</th>
-									{END password_fieldheadercolumn}
-									
-									
-									
-									
 									{BEGIN email_fieldheadercolumn}
 									<th class="rnr-gridfieldlabel {$email_class}" data-field=email>
 									{BEGIN email_fieldheader}
@@ -656,13 +646,6 @@
 		{$username_value}
 	</td>
 {END username_fieldcolumn}
-
-
-	{BEGIN password_fieldcolumn}
-	<td class="bs-gridcell {$password_class}"  data-field=password {$rowstyle} {$recordattrs}>
-		{$password_value}
-	</td>
-{END password_fieldcolumn}
 
 
 	{BEGIN email_fieldcolumn}
