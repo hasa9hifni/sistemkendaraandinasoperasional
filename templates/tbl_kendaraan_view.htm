@@ -1,0 +1,237 @@
+<!doctype html>
+<html  {$html_attrs}>
+	<head>
+		<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>{$pagetitle}</title>
+
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+		<link REL="stylesheet" href="styles/default.css" type="text/css">
+		{BEGIN rtlCSS}
+		<link REL="stylesheet" href="styles/defaultRTL.css" type="text/css">
+		{END rtlCSS}
+		{BEGIN styleCSSFiles}
+		<link REL="stylesheet" href="{$stylepath}" type="text/css">
+		{END styleCSSFiles}
+	</head>
+
+	<body class="{$stylename} function-view" {$bodyattrs}>
+	{BEGIN body}
+		{$header}
+		<style>
+			{$containerCss}
+		</style>
+		<DIV class="bs-top">
+        
+
+{BEGIN container_viewpage}
+<div {$viewpage_chiddenattr} data-pageid="{$pageid}" data-container="viewpage" class="container    "> 
+
+
+
+
+{BEGIN container_header}
+<div {$header_chiddenattr} data-pageid="{$pageid}" data-container="header" class="   col-md-12 "> 
+
+{BEGIN viewheader}
+	<h2 {$viewheader_hiddenattr} data-pageid="{$pageid}" data-brick="viewheader" >{$pagetitlelabel tbl_kendaraan view}</h2>
+
+{END viewheader}
+
+
+
+</div>
+{END container_header}
+
+
+
+
+
+
+</div>
+{END container_viewpage}
+
+
+
+{BEGIN container_fields}
+<div {$fields_chiddenattr} data-pageid="{$pageid}" data-container="fields" class=" form-horizontal  col-md-12 "> 
+
+
+<div {$viewfields_hiddenattr} data-pageid="{$pageid}" data-brick="viewfields" >
+
+	<div class="container">
+					{BEGIN NO_POLISI_KENDARAAN_fieldblock}
+	<div class="{$fielddispclass_NO_POLISI_KENDARAAN} col-md-6 bs-viewcontrolgroup" data-fieldname="NO_POLISI_KENDARAAN">
+		<label class="control-label" for="{$labelfor_NO_POLISI_KENDARAAN}">
+			{$label tbl_kendaraan NO_POLISI_KENDARAAN}
+		</label>
+		<div class="" >
+			{$NO_POLISI_KENDARAAN_value}&nbsp;
+		</div>
+	</div>
+{END NO_POLISI_KENDARAAN_fieldblock}
+					{BEGIN MERK_KENDARAAN_fieldblock}
+	<div class="{$fielddispclass_MERK_KENDARAAN} col-md-6 bs-viewcontrolgroup" data-fieldname="MERK_KENDARAAN">
+		<label class="control-label" for="{$labelfor_MERK_KENDARAAN}">
+			{$label tbl_kendaraan MERK_KENDARAAN}
+		</label>
+		<div class="" >
+			{$MERK_KENDARAAN_value}&nbsp;
+		</div>
+	</div>
+{END MERK_KENDARAAN_fieldblock}
+					{BEGIN TIPE_MODEL_KENDARAAN_fieldblock}
+	<div class="{$fielddispclass_TIPE_MODEL_KENDARAAN} col-md-6 bs-viewcontrolgroup" data-fieldname="TIPE_MODEL_KENDARAAN">
+		<label class="control-label" for="{$labelfor_TIPE_MODEL_KENDARAAN}">
+			{$label tbl_kendaraan TIPE_MODEL_KENDARAAN}
+		</label>
+		<div class="" >
+			{$TIPE_MODEL_KENDARAAN_value}&nbsp;
+		</div>
+	</div>
+{END TIPE_MODEL_KENDARAAN_fieldblock}
+					{BEGIN TAHUN_PRODUKSI_fieldblock}
+	<div class="{$fielddispclass_TAHUN_PRODUKSI} col-md-6 bs-viewcontrolgroup" data-fieldname="TAHUN_PRODUKSI">
+		<label class="control-label" for="{$labelfor_TAHUN_PRODUKSI}">
+			{$label tbl_kendaraan TAHUN_PRODUKSI}
+		</label>
+		<div class="" >
+			{$TAHUN_PRODUKSI_value}&nbsp;
+		</div>
+	</div>
+{END TAHUN_PRODUKSI_fieldblock}
+					{BEGIN WARNA_KENDARAAN_fieldblock}
+	<div class="{$fielddispclass_WARNA_KENDARAAN} col-md-6 bs-viewcontrolgroup" data-fieldname="WARNA_KENDARAAN">
+		<label class="control-label" for="{$labelfor_WARNA_KENDARAAN}">
+			{$label tbl_kendaraan WARNA_KENDARAAN}
+		</label>
+		<div class="" >
+			{$WARNA_KENDARAAN_value}&nbsp;
+		</div>
+	</div>
+{END WARNA_KENDARAAN_fieldblock}
+					{BEGIN KONDISI_STATUS_KENDARAAN_fieldblock}
+	<div class="{$fielddispclass_KONDISI_STATUS_KENDARAAN} col-md-6 bs-viewcontrolgroup" data-fieldname="KONDISI_STATUS_KENDARAAN">
+		<label class="control-label" for="{$labelfor_KONDISI_STATUS_KENDARAAN}">
+			{$label tbl_kendaraan KONDISI_STATUS_KENDARAAN}
+		</label>
+		<div class="" >
+			{$KONDISI_STATUS_KENDARAAN_value}&nbsp;
+		</div>
+	</div>
+{END KONDISI_STATUS_KENDARAAN_fieldblock}
+	</div>
+</div>
+
+
+
+
+</div>
+{END container_fields}
+
+
+
+{BEGIN container_bottombuttons}
+<div {$bottombuttons_chiddenattr} data-pageid="{$pageid}" data-container="bottombuttons" class="container    "> 
+
+
+
+
+{BEGIN container_buttons}
+<div {$buttons_chiddenattr} data-pageid="{$pageid}" data-container="buttons" class=" form-group   "> 
+
+
+
+
+{BEGIN container_leftbuttons}
+<div {$leftbuttons_chiddenattr} data-pageid="{$pageid}" data-container="leftbuttons" class="   col-md-6 "> 
+
+{BEGIN viewbuttons}
+{BEGIN back_button}
+<button class="btn btn-primary" {$backbutton_attrs}>Back to list</button>
+{END back_button}
+{BEGIN close_button}
+<button href="#" class="btn btn-primary" {$closebutton_attrs}>Close window</button>
+{END close_button}
+{END viewbuttons}
+
+
+
+</div>
+{END container_leftbuttons}
+
+
+
+
+
+
+
+
+{BEGIN container_leftbuttons_1}
+<div {$leftbuttons_1_chiddenattr} data-pageid="{$pageid}" data-container="leftbuttons_1" class="   col-md-4 "> 
+
+{BEGIN rightviewbuttons}
+<div class="btn-group" role="group">
+		{BEGIN prev_button}
+	<button class="btn btn-default {$prevbutton_class}" {$prevbutton_attrs}><span class="glyphicon glyphicon-chevron-left"></span></button>
+	{END prev_button}
+	{BEGIN next_button}
+	<button class="btn btn-default {$nextbutton_class}" {$nextbutton_attrs}><span class="glyphicon glyphicon-chevron-right"></span></button>
+	{END next_button}
+		{BEGIN view_menu_button}
+	<div class="btn-group dropup" role="group">
+		<button class="btn btn-default dropdown-toggle {$groupbutton_class}" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" ><span class="glyphicon glyphicon-menu-hamburger"></span></button>
+		<ul class="dropdown-menu dropdown-left">
+									{BEGIN edit_page_button}
+				<li><a href=# {$edit_page_button_attrs}>Edit</a></li>
+			{END edit_page_button}
+		</ul>
+	</div>
+	{END view_menu_button}
+</div>
+{END rightviewbuttons}
+
+
+
+</div>
+{END container_leftbuttons_1}
+
+
+
+
+
+
+</div>
+{END container_buttons}
+
+
+
+
+
+
+</div>
+{END container_bottombuttons}
+
+
+		</div>
+		<div class="bs-middle ">
+			<div class="bs-topmiddle">
+				
+			</div>
+			<div class="bs-left" {$blockattr_left}>
+				
+			</div>
+			<div class="bs-center">
+				
+			</div>
+			<div class="bs-right">
+				
+			</div>
+		</div>
+		<DIV class="bs-bottom">
+        
+		</div>
+		{$footer}
+	{END body}
+	</body>
+</html>
